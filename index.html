@@ -13,8 +13,8 @@
       var canvasEl = document.getElementById("game-canvas");
       var ctx = canvasEl.getContext('2d');
       canvasEl.width = 1000;
-      canvasEl.height = 1000;
-      
+      canvasEl.height = 500;
+
       game = new Asteroids.Game();
       gameView = new Asteroids.GameView(game, ctx);
       gameView.start(canvasEl);
