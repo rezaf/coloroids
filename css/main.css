@@ -1,3 +1,4 @@
 canvas {
-  border: solid;
+  border: solid 5px slategrey;
+  border-radius: 20px;
 }
