@@ -1,4 +1,17 @@
 canvas {
   border: solid 5px deepskyblue;
   border-radius: 20px;
+  /*opacity: 0.9;*/
+}
+
+td {
+  width: 25px;
+  height: 25px;
+}
+
+#target {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: -1;
 }
