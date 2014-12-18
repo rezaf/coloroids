@@ -3,6 +3,8 @@
   <head>
     <link rel="stylesheet" href="css/main.css">
     <script type="application/javascript" src="vendor/keymaster.js"></script>
+    <script type="application/javascript" src="vendor/tween.js"></script>
+    <script type="application/javascript" src="vendor/stats.js"></script>
 
     <script type="application/javascript" src="lib/util.js"></script>
     <script type="application/javascript" src="lib/movingObject.js"></script>
@@ -14,7 +16,7 @@
   </head>
 
   <body>
-    <canvas></canvas>
+    <canvas id="target"></canvas>
 
     <audio loop controls>
       <source src="sound/shackbu.mp3" type="audio/mpeg">
@@ -31,5 +33,7 @@
         new Asteroids.GameView(game, ctx).start();
       })();
     </script>
+
+    <script type="application/javascript" src="lib/effects.js"></script>
   </body>
 </html>
