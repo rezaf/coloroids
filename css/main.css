@@ -1,8 +1,9 @@
 canvas {
   border: solid 5px deepskyblue;
-  border-radius: 20px;
+  border-radius: 7px;
   opacity: 0.9;
 }
+
 
 td {
   width: 25px;
@@ -11,7 +12,8 @@ td {
 
 #target {
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 9px;
+  left: 13px;
+  width: 1000px;
   z-index: -1;
 }
