@@ -17,3 +17,12 @@ td {
   width: 1000px;
   z-index: -1;
 }
+
+#count {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1.8em;
+}
