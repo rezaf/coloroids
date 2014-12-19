@@ -26,3 +26,12 @@ td {
   font-weight: bold;
   font-size: 1.8em;
 }
+
+#lives {
+  position: absolute;
+  top: 60px;
+  left: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 1.8em;
+}
