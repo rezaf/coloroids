@@ -22,6 +22,18 @@ audio {
   color: white;
 }
 
+#game-won {
+  position: absolute;
+  top: 250px;
+  left: 300px;
+  border-radius: 15px;
+  background: rgba(100, 100, 100, 0.7);
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 5em;
+  color: white;
+}
+
 td {
   width: 25px;
   height: 25px;
