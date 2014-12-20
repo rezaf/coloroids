@@ -21,14 +21,22 @@
   <body>
     <canvas></canvas>
     <div id="target"></div>
-    <div id="count"></div>
-    <div id="lives"></div>
+    <div id="hud">
+      <div id="count"></div>
+      <div id="lives"></div>
+    </div>
     <audio loop controls>
       <source src="sound/shackbu.mp3" type="audio/mpeg">
     </audio>
 
     <button type="button" name="replay" id="replay">Replay</button>
     <script>$( "button" ).button();</script>
+
+    <script type="application/javascript">
+      $("#replay").click (function () {
+        location.reload();
+      });
+    </script>
 
     <script type="application/javascript">
       (function () {

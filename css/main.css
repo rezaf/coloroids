@@ -55,6 +55,7 @@ td {
 
 #replay {
   position: absolute;
-  left: 890px;
+  font-size: 1.1em;
+  left: 910px;
   top: 622px;
 }
