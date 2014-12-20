@@ -52,3 +52,10 @@ td {
   font-weight: bold;
   font-size: 1.8em;
 }
+
+button {
+  position: absolute;
+  top: 622px;
+  left: 920px;
+  font-size: 1.2em;
+}
