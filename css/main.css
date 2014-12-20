@@ -35,22 +35,20 @@ td {
   z-index: -1;
 }
 
-#count {
+#hud {
   position: absolute;
-  top: 20px;
-  left: 30px;
+  top: 15px;
+  left: 17px;
   font-family: sans-serif;
   font-weight: bold;
-  font-size: 1.8em;
+  font-size: 1.6em;
+  background: rgba(100, 100, 100, 0.15);
+  border-radius: 5px;
+  padding: 5px 10px;
 }
 
-#lives {
-  position: absolute;
-  top: 60px;
-  left: 30px;
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 1.8em;
+#hud * {
+  color: rgb(40, 40, 40);
 }
 
 #replay {
