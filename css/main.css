@@ -15,6 +15,7 @@ audio {
   top: 250px;
   left: 220px;
   border-radius: 15px;
+  padding: 5px 25px;
   background: rgba(100, 100, 100, 0.7);
   font-family: sans-serif;
   font-weight: bold;
@@ -27,6 +28,7 @@ audio {
   top: 240px;
   left: 270px;
   border-radius: 15px;
+  padding: 5px 25px;
   background: rgba(100, 100, 100, 0.7);
   font-family: sans-serif;
   font-weight: bold;
