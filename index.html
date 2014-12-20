@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" href="vendor/jquery-ui/jquery-ui.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="vendor/jquery-ui/jquery-ui.css">
 
     <script type="application/javascript" src="vendor/keymaster.js"></script>
     <script type="application/javascript" src="vendor/tween.js"></script>
@@ -27,7 +27,8 @@
       <source src="sound/shackbu.mp3" type="audio/mpeg">
     </audio>
 
-    <button type="button" name="replay">Replay</button>
+    <button type="button" name="replay" id="replay">Replay</button>
+    <script>$( "button" ).button();</script>
 
     <script type="application/javascript">
       (function () {

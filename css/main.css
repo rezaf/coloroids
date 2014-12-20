@@ -53,9 +53,8 @@ td {
   font-size: 1.8em;
 }
 
-button {
+#replay {
   position: absolute;
+  left: 890px;
   top: 622px;
-  left: 920px;
-  font-size: 1.2em;
 }
