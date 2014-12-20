@@ -47,6 +47,8 @@ td {
   left: 13px;
   width: 1000px;
   z-index: -1;
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
 }
 
 #hud {
