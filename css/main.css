@@ -10,6 +10,16 @@ audio {
   left: 15px;
 }
 
+#game-over {
+  position: absolute;
+  top: 250px;
+  left: 220px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 5em;
+  color: white;
+}
+
 td {
   width: 25px;
   height: 25px;
