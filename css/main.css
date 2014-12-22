@@ -18,6 +18,7 @@ audio {
   padding: 5px 25px;
   background: rgba(100, 100, 100, 0.7);
   font-family: sans-serif;
+  font-style: bold;
   font-size: 5em;
   color: white;
 }
@@ -30,6 +31,7 @@ audio {
   padding: 5px 25px;
   background: rgba(100, 100, 100, 0.7);
   font-family: sans-serif;
+  font-style: bold;
   font-size: 5em;
   color: white;
 }
