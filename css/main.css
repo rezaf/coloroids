@@ -1,7 +1,7 @@
 canvas {
   border: solid 5px deepskyblue;
   border-radius: 7px;
-  opacity: 0.9;
+  opacity: .9;
 }
 
 audio {
@@ -16,7 +16,7 @@ audio {
   left: 220px;
   border-radius: 15px;
   padding: 5px 25px;
-  background: rgba(100, 100, 100, 0.7);
+  background: rgba(100, 100, 100, .7);
   font-family: sans-serif;
   font-weight: bold;
   font-size: 5em;
@@ -29,7 +29,7 @@ audio {
   left: 270px;
   border-radius: 15px;
   padding: 5px 25px;
-  background: rgba(100, 100, 100, 0.7);
+  background: rgba(100, 100, 100, .7);
   font-family: sans-serif;
   font-weight: bold;
   font-size: 5em;
@@ -57,7 +57,7 @@ td {
   left: 17px;
   font-family: sans-serif;
   font-size: 1.6em;
-  background: rgba(100, 100, 100, 0.15);
+  background: rgba(100, 100, 100, .15);
   border-radius: 5px;
   padding: 5px 10px;
 }
@@ -71,7 +71,7 @@ td {
   font-size: 1em;
   left: 910px;
   top: 622px;
-  padding: 0px 3px 4px 0px;
+  padding: 0 3px 4px 0;
 }
 
 dl {
@@ -79,6 +79,6 @@ dl {
   left: 400px;
   top: 607px;
   font-family: sans-serif;
-  font-size: 0.9em;
+  font-size: .9em;
   color: deepskyblue;
 }
