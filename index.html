@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
-  <!-- Adobe Typekit scripts -->
+  <!-- Adobe Typekit -->
   <script src="//use.typekit.net/eph5pce.js"></script>
   <script>try{Typekit.load();}catch(e){}</script>
 
+  <!-- Stylesheets -->
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="vendor/jquery-ui/jquery-ui.min.css">
   <link rel="stylesheet" href="css/main.css">
 
+  <!-- Load vendor libraries -->
   <script src="vendor/keymaster.js"></script>
   <script src="vendor/tween.js"></script>
   <script src="vendor/jquery.min.js"></script>
   <script src="vendor/jquery-ui/jquery-ui.min.js"></script>
 
+  <!-- Load game scripts -->
   <script src="lib/util.js"></script>
   <script src="lib/movingObject.js"></script>
   <script src="lib/asteroid.js"></script>
@@ -24,6 +27,7 @@
 </head>
 
 <body>
+  <!-- Setup game page -->
   <canvas></canvas>
   <div id="target"></div>
 
@@ -43,24 +47,10 @@
     <dd>Space Bar: bullets</dd>
   </dl>
 
-  <button type="button" name="replay" id="replay">Replay</button>
-  <script>
-    $("button").button();
-    $("#replay").click(function() { location.reload(); });
-  </script>
+  <button type="button" id="replay">Replay</button>
 
-  <script>
-    (function() {
-      var canvasEl = $("canvas")[0];
-      canvasEl.width = Asteroids.Game.DIM_X;
-      canvasEl.height = Asteroids.Game.DIM_Y;
-
-      var ctx = canvasEl.getContext("2d");
-      var game = new Asteroids.Game();
-      new Asteroids.GameView(game, ctx).start();
-    })();
-  </script>
-
+  <!-- Start game -->
+  <script src="lib/main.js"></script>
   <script src="lib/effects.js"></script>
 
   <!-- Google Analytics script -->

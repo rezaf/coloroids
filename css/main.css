@@ -10,30 +10,13 @@ audio {
   left: 15px;
 }
 
-#game-over {
+dl {
   position: absolute;
-  top: 250px;
-  left: 220px;
-  border-radius: 15px;
-  padding: 5px 25px;
-  background: rgba(100, 100, 100, .7);
+  top: 607px;
+  left: 400px;
   font-family: sans-serif;
-  font-weight: bold;
-  font-size: 5em;
-  color: white;
-}
-
-#game-won {
-  position: absolute;
-  top: 240px;
-  left: 270px;
-  border-radius: 15px;
-  padding: 5px 25px;
-  background: rgba(100, 100, 100, .7);
-  font-family: sans-serif;
-  font-weight: bold;
-  font-size: 5em;
-  color: white;
+  font-size: .9em;
+  color: deepskyblue;
 }
 
 td {
@@ -66,19 +49,36 @@ td {
   color: rgb(40, 40, 40);
 }
 
+#game-over {
+  position: absolute;
+  top: 250px;
+  left: 220px;
+  border-radius: 15px;
+  padding: 5px 25px;
+  background: rgba(100, 100, 100, .7);
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 5em;
+  color: white;
+}
+
+#game-won {
+  position: absolute;
+  top: 240px;
+  left: 270px;
+  border-radius: 15px;
+  padding: 5px 25px;
+  background: rgba(100, 100, 100, .7);
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 5em;
+  color: white;
+}
+
 #replay {
   position: absolute;
   font-size: 1em;
   left: 910px;
   top: 622px;
   padding: 0 3px 4px 0;
-}
-
-dl {
-  position: absolute;
-  left: 400px;
-  top: 607px;
-  font-family: sans-serif;
-  font-size: .9em;
-  color: deepskyblue;
 }
