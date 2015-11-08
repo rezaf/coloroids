@@ -4,12 +4,6 @@ canvas {
   opacity: .9;
 }
 
-audio {
-  position: absolute;
-  top: 625px;
-  left: 15px;
-}
-
 dl {
   position: absolute;
   top: 607px;
