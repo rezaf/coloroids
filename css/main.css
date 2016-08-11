@@ -8,7 +8,7 @@ dl {
   position: absolute;
   top: 607px;
   left: 400px;
-  font-family: sans-serif;
+  font-family: 'Concert One', sans-serif;
   font-size: .9em;
   color: deepskyblue;
 }
@@ -32,7 +32,7 @@ td {
   position: absolute;
   top: 15px;
   left: 17px;
-  font-family: sans-serif;
+  font-family: 'Concert One', sans-serif;
   font-size: 1.6em;
   background: rgba(100, 100, 100, .15);
   border-radius: 5px;
